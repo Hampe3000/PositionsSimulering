@@ -12,7 +12,7 @@ patches-own[
   Charging-Station?
 ]
 
-turtles-own[
+turtles-own[  
   Battery
   Weight
   New-Weight
@@ -54,127 +54,22 @@ to setup
   ]
 
   create-turtles Num-Agents
-  ask turtle 0 [ set xcor 25 set ycor 25 set Battery (20 + random 80) / 100 set Homex xcor set Homey ycor Set-Destination ]
+  ask turtle 0 [ set xcor 25 set ycor 25 set Battery (20 + random 80) / 100 set Homex xcor set Homey ycor Set-Destination]
   ask turtle 1 [ set xcor 25 set ycor 25 set Battery (20 + random 80) / 100 set Homex xcor set Homey ycor Set-Destination]
-
   ask turtle 2 [ set xcor 25 set ycor 25 set Battery (20 + random 80) / 100 set Homex xcor set Homey ycor Set-Destination]
-
-  ask turtle 3 [
-    set xcor 25
-    set ycor 25
-    set Battery (20 + random 80) / 100
-    set Homex xcor
-    set Homey ycor
-    Set-Destination
-  ]
-
-  ask turtle 4 [
-    set xcor 25
-    set ycor 75
-    set Battery (20 + random 80) / 100
-    set Homex xcor
-    set Homey ycor
-    Set-Destination
-  ]
-
-  ask turtle 5 [
-    set xcor 25
-    set ycor 75
-    set Battery (20 + random 80) / 100
-    set Homex xcor
-    set Homey ycor
-    Set-Destination
-  ]
-
-  ask turtle 6 [
-    set xcor 25
-    set ycor 75
-    set Battery (20 + random 80) / 100
-    set Homex xcor
-    set Homey ycor
-    Set-Destination
-  ]
-
-  ask turtle 7 [
-    set xcor 75
-    set ycor 25
-    set Battery (20 + random 80) / 100
-    set Homex xcor
-    set Homey ycor
-    Set-Destination
-  ]
-
-  ask turtle 8 [
-    set xcor 75
-    set ycor 25
-    set Battery (20 + random 80) / 100
-    set Homex xcor
-    set Homey ycor
-    Set-Destination
-  ]
-
-  ask turtle 9 [
-    set xcor 75
-    set ycor 25
-    set Battery (20 + random 80) / 100
-    set Homex xcor
-    set Homey ycor
-    Set-Destination
-  ]
-
-  ask turtle 10 [
-    set xcor 75
-    set ycor 75
-    set Battery (20 + random 80) / 100
-    set Homex xcor
-    set Homey ycor
-    Set-Destination
-  ]
-
-  ask turtle 11 [
-    set xcor 75
-    set ycor 75
-    set Battery (20 + random 80) / 100
-    set Homex xcor
-    set Homey ycor
-    Set-Destination
-  ]
-
-  ask turtle 12 [
-    set xcor 75
-    set ycor 75
-    set Battery (20 + random 80) / 100
-    set Homex xcor
-    set Homey ycor
-    Set-Destination
-  ]
-
-  ask turtle 13 [
-    set xcor 50
-    set ycor 50
-    set Battery (20 + random 80) / 100
-    set Homex xcor
-    set Homey ycor
-    Set-Destination
-  ]
-
-  ask turtle 14 [
-    set xcor 50
-    set ycor 50
-    set Battery (20 + random 80) / 100
-    set Homex xcor
-    set Homey ycor
-    Set-Destination
-  ]
-
-  ask turtle 15 [
-    set xcor 50
-    set ycor 50
-    set Battery (20 + random 80) / 100
-    set Homex xcor
-    set Homey ycor
-    Set-Destination
-  ]
+  ask turtle 3 [ set xcor 25 set ycor 25 set Battery (20 + random 80) / 100 set Homex xcor set Homey ycor Set-Destination]
+  ask turtle 4 [ set xcor 25 set ycor 75 set Battery (20 + random 80) / 100 set Homex xcor set Homey ycor Set-Destination]
+  ask turtle 5 [ set xcor 25 set ycor 75 set Battery (20 + random 80) / 100 set Homex xcor set Homey ycor Set-Destination]
+  ask turtle 6 [ set xcor 25 set ycor 75 set Battery (20 + random 80) / 100 set Homex xcor set Homey ycor Set-Destination]
+  ask turtle 7 [ set xcor 75 set ycor 25 set Battery (20 + random 80) / 100 set Homex xcor set Homey ycor Set-Destination]
+  ask turtle 8 [ set xcor 75 set ycor 25 set Battery (20 + random 80) / 100 set Homex xcor set Homey ycor Set-Destination]
+  ask turtle 9 [ set xcor 75 set ycor 25 set Battery (20 + random 80) / 100 set Homex xcor set Homey ycor Set-Destination]
+  ask turtle 10 [ set xcor 75 set ycor 75 set Battery (20 + random 80) / 100 set Homex xcor set Homey ycor Set-Destination]
+  ask turtle 11 [ set xcor 75 set ycor 75 set Battery (20 + random 80) / 100 set Homex xcor set Homey ycor Set-Destination]
+  ask turtle 12 [ set xcor 75 set ycor 75 set Battery (20 + random 80) / 100 set Homex xcor set Homey ycor Set-Destination]
+  ask turtle 13 [ set xcor 50 set ycor 50 set Battery (20 + random 80) / 100 set Homex xcor set Homey ycor Set-Destination]
+  ask turtle 14 [ set xcor 50 set ycor 50 set Battery (20 + random 80) / 100 set Homex xcor set Homey ycor Set-Destination]
+  ask turtle 15 [ set xcor 50 set ycor 50 set Battery (20 + random 80) / 100 set Homex xcor set Homey ycor Set-Destination]
 
   ask turtles [set pen-mode "down"]
   inspect turtle 0
